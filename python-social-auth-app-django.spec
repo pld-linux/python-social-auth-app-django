@@ -9,12 +9,12 @@
 %define		egg_name	social_auth_app_django
 Summary:	Python Social Auth - Application - Django
 Name:		python-%{pypi_name}
-Version:	1.1.0
+Version:	1.2.0
 Release:	1
 License:	BSD
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/s/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
-# Source0-md5:	48c829f301b941885109f3aa70985731
+# Source0-md5:	ec78f03b8053ecaa4d33b35a128c00bd
 URL:		https://github.com/python-social-auth/social-app-django
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
